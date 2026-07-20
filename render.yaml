@@ -23,6 +23,8 @@ services:
         value: admin@catholicmasshub.local
       - key: ADMIN_PASSWORD
         value: changeme-admin
+      - key: HF_TOKEN
+        sync: false
 
 databases:
   - name: catholic-mass-hub-db
