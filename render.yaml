@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://render.com/schema/render.yaml.json
+services:
+  - type: web
+    name: catholic-mass-hub
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm ci && npm run build:prod && npm run db:seed
+    startCommand: npm run start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: DATABASE_URL
+        fromDatabase:
+          name: catholic-mass-hub-db
+          property: connectionString
+      - key: AUTH_SECRET
+        generateValue: true
+      - key: CRON_SECRET
+        generateValue: true
+      - key: ADMIN_EMAIL
+        value: admin@catholicmasshub.local
+      - key: ADMIN_PASSWORD
+        value: changeme-admin
+
+databases:
+  - name: catholic-mass-hub-db
+    plan: free
+    postgresMajorVersion: "16"

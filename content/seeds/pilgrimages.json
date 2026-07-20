@@ -1,0 +1,256 @@
+[
+  {
+    "slug": "lourdes",
+    "name": "Sanctuary of Our Lady of Lourdes",
+    "country": "France",
+    "region": "Occitanie",
+    "latitude": 43.097,
+    "longitude": -0.046,
+    "description": "The Grotto of Massabielle, where the Blessed Virgin Mary appeared to St. Bernadette Soubirous in 1858.",
+    "significance": "One of the most visited Marian shrines in the world, known for healing and pilgrimage.",
+    "bestSeason": "Easter through October (main pilgrimage season)",
+    "peakEvents": ["Feb 11 - First Apparition", "Aug 15 - Assumption", "International Military Pilgrimage (May)"],
+    "yearlySchedule": [
+      { "month": 2, "day": 11, "title": "Feast of Our Lady of Lourdes", "type": "feast", "notes": "Anniversary of the first apparition" },
+      { "month": 2, "day": null, "title": "Winter pilgrimage season continues", "type": "season", "notes": "Quieter visits; check indoor Mass times" },
+      { "month": 3, "day": null, "title": "Lent & Holy Week preparations", "type": "liturgy" },
+      { "month": 4, "day": null, "title": "Eastertide pilgrimages open", "type": "season", "notes": "Main outdoor season begins around Easter" },
+      { "month": 5, "day": null, "title": "International Military Pilgrimage", "type": "pilgrimage", "notes": "Usually mid-May; verify exact dates yearly" },
+      { "month": 6, "day": null, "title": "Peak summer pilgrimages", "type": "season" },
+      { "month": 7, "day": null, "title": "High summer torchlight processions", "type": "season", "notes": "Nightly processions in season (~9 PM)" },
+      { "month": 8, "day": 15, "title": "Assumption of the Blessed Virgin Mary", "type": "feast" },
+      { "month": 9, "day": null, "title": "Autumn pilgrimage groups", "type": "season" },
+      { "month": 10, "day": null, "title": "Season winds down", "type": "season" },
+      { "month": 11, "day": 1, "title": "All Saints", "type": "feast" },
+      { "month": 12, "day": 8, "title": "Immaculate Conception", "type": "feast" }
+    ],
+    "massScheduleNotes": "Celebrations in multiple languages year-round. Check official sanctuary schedule.",
+    "processionTimes": "Torchlight procession nightly during season (typically 9 PM)",
+    "howToReach": {
+      "air": "Tarbes-Lourdes-Pyrénées Airport (LDE) ~15 km",
+      "train": "Lourdes station with connections from Paris",
+      "road": "A64 motorway, well signposted to Sanctuaires"
+    },
+    "officialUrl": "https://www.lourdes-france.org/en/",
+    "livestreamUrl": "https://www.lourdes-france.org/en/pray/live/"
+  },
+  {
+    "slug": "fatima",
+    "name": "Sanctuary of Our Lady of Fatima",
+    "country": "Portugal",
+    "region": "Centro",
+    "latitude": 39.631,
+    "longitude": -8.674,
+    "description": "Site of the 1917 apparitions to three shepherd children and the Miracle of the Sun.",
+    "significance": "Major Marian pilgrimage destination with the Chapel of the Apparitions at its heart.",
+    "bestSeason": "May–October; May 13 and Oct 13 are major feast days",
+    "peakEvents": ["May 13", "Oct 13", "Candlelight procession (seasonal)"],
+    "yearlySchedule": [
+      { "month": 1, "day": null, "title": "Quiet winter visits", "type": "season" },
+      { "month": 2, "day": 11, "title": "Our Lady of Lourdes (devotional)", "type": "liturgy" },
+      { "month": 5, "day": 12, "title": "Vigil before May 13", "type": "pilgrimage", "notes": "Candlelight procession" },
+      { "month": 5, "day": 13, "title": "Anniversary of the first apparition", "type": "feast", "notes": "Largest spring pilgrimage" },
+      { "month": 6, "day": 13, "title": "June apparition anniversary", "type": "feast" },
+      { "month": 7, "day": 13, "title": "July apparition anniversary", "type": "feast" },
+      { "month": 8, "day": 13, "title": "August apparition anniversary", "type": "feast" },
+      { "month": 9, "day": 13, "title": "September apparition anniversary", "type": "feast" },
+      { "month": 10, "day": 12, "title": "Vigil before Oct 13", "type": "pilgrimage", "notes": "Candlelight procession" },
+      { "month": 10, "day": 13, "title": "Miracle of the Sun anniversary", "type": "feast", "notes": "Major autumn pilgrimage" },
+      { "month": 12, "day": 8, "title": "Immaculate Conception", "type": "feast" }
+    ],
+    "massScheduleNotes": "Multiple Masses daily at the Basilica and Chapel of Apparitions.",
+    "processionTimes": "Candlelight procession on May 12–13 and Oct 12–13",
+    "howToReach": {
+      "air": "Lisbon (LIS) ~130 km or Porto (OPO)",
+      "train": "Fatima station with bus to sanctuary",
+      "road": "A1/A8 motorways from Lisbon or Porto"
+    },
+    "officialUrl": "https://www.fatima.pt/en/",
+    "livestreamUrl": "https://www.fatima.pt/en/pages/online-transmissions"
+  },
+  {
+    "slug": "rome-st-peters",
+    "name": "St. Peter's Basilica, Vatican",
+    "country": "Vatican City",
+    "region": "Rome",
+    "latitude": 41.902,
+    "longitude": 12.453,
+    "description": "The heart of the Catholic Church and burial site of St. Peter the Apostle.",
+    "significance": "Papal Masses, jubilee years, and major liturgical celebrations.",
+    "bestSeason": "Year-round; avoid August heat in Rome",
+    "peakEvents": ["Easter", "Christmas Midnight Mass", "Jubilee years"],
+    "yearlySchedule": [
+      { "month": 1, "day": 1, "title": "Solemnity of Mary, Mother of God", "type": "feast" },
+      { "month": 1, "day": 6, "title": "Epiphany", "type": "feast" },
+      { "month": 2, "day": null, "title": "Feast of the Chair of St. Peter (Feb 22)", "type": "feast" },
+      { "month": 3, "day": null, "title": "Holy Week & Triduum (movable)", "type": "liturgy", "notes": "Dates change yearly — check Vatican News" },
+      { "month": 4, "day": null, "title": "Easter Octave (movable)", "type": "feast" },
+      { "month": 6, "day": 29, "title": "Sts. Peter and Paul", "type": "feast" },
+      { "month": 8, "day": 15, "title": "Assumption", "type": "feast" },
+      { "month": 11, "day": 1, "title": "All Saints", "type": "feast" },
+      { "month": 12, "day": 8, "title": "Immaculate Conception", "type": "feast" },
+      { "month": 12, "day": 24, "title": "Christmas Midnight Mass (papal)", "type": "feast", "notes": "Usually from St. Peter's" },
+      { "month": 12, "day": 25, "title": "Nativity of the Lord", "type": "feast" }
+    ],
+    "massScheduleNotes": "Daily Masses; papal liturgies announced on Vatican News.",
+    "processionTimes": "Special processions during Holy Week and major feasts",
+    "howToReach": {
+      "air": "Rome Fiumicino (FCO) or Ciampino (CIA)",
+      "train": "San Pietro station or Ottaviano (Metro A)",
+      "road": "Limited vehicle access; use public transit"
+    },
+    "officialUrl": "https://www.vatican.va/content/vatican/en.html",
+    "livestreamUrl": "https://www.vaticannews.va/en/epg.html"
+  },
+  {
+    "slug": "guadalupe",
+    "name": "Basilica of Our Lady of Guadalupe",
+    "country": "Mexico",
+    "region": "Mexico City",
+    "latitude": 19.485,
+    "longitude": -99.117,
+    "description": "Shrine of Our Lady of Guadalupe, patroness of the Americas.",
+    "significance": "Most visited Catholic pilgrimage site in the Western Hemisphere.",
+    "bestSeason": "Dec 12 (Feast of Guadalupe) draws millions",
+    "peakEvents": ["Dec 11–12 Feast celebrations", "Easter"],
+    "yearlySchedule": [
+      { "month": 1, "day": null, "title": "Ordinary-time pilgrimages", "type": "season" },
+      { "month": 3, "day": null, "title": "Lenten pilgrimages", "type": "season" },
+      { "month": 5, "day": null, "title": "Month of Mary processions", "type": "season" },
+      { "month": 7, "day": null, "title": "Summer diocesan pilgrimages", "type": "pilgrimage" },
+      { "month": 9, "day": null, "title": "Independence-season visits", "type": "season" },
+      { "month": 12, "day": 9, "title": "Novena begins (approx.)", "type": "liturgy" },
+      { "month": 12, "day": 11, "title": "Vigil of Our Lady of Guadalupe", "type": "feast", "notes": "Overnight pilgrimages arrive" },
+      { "month": 12, "day": 12, "title": "Feast of Our Lady of Guadalupe", "type": "feast", "notes": "Largest day of the year — arrive early" }
+    ],
+    "massScheduleNotes": "Continuous celebrations; Dec 11–12 requires early arrival.",
+    "processionTimes": "Pilgrims walk from across Mexico for Dec 12",
+    "howToReach": {
+      "air": "Mexico City International (MEX)",
+      "train": "Metro Basilica de Guadalupe station",
+      "road": "La Villa area, north of historic center"
+    },
+    "officialUrl": "https://www.virgendeguadalupe.org.mx/",
+    "livestreamUrl": "https://www.youtube.com/@BasilicadeGuadalupeMX"
+  },
+  {
+    "slug": "santiago",
+    "name": "Cathedral of Santiago de Compostela",
+    "country": "Spain",
+    "region": "Galicia",
+    "latitude": 42.88,
+    "longitude": -8.545,
+    "description": "Destination of the Camino de Santiago and tomb of St. James the Apostle.",
+    "significance": "One of three great pilgrimages of Christendom alongside Rome and Jerusalem.",
+    "bestSeason": "May–September for walking the Camino",
+    "peakEvents": ["Jul 25 - Feast of St. James", "Holy Years when Jul 25 is Sunday"],
+    "yearlySchedule": [
+      { "month": 1, "day": null, "title": "Winter Camino (Quieter)", "type": "season" },
+      { "month": 4, "day": null, "title": "Spring Camino season opens", "type": "season" },
+      { "month": 5, "day": null, "title": "Peak walking months begin", "type": "pilgrimage" },
+      { "month": 6, "day": null, "title": "High Camino traffic", "type": "pilgrimage" },
+      { "month": 7, "day": 25, "title": "Feast of St. James the Apostle", "type": "feast", "notes": "Botafumeiro often swung; Holy Year when date is Sunday" },
+      { "month": 8, "day": null, "title": "Summer pilgrim Masses crowded", "type": "season" },
+      { "month": 9, "day": null, "title": "Autumn Camino continues", "type": "season" },
+      { "month": 10, "day": null, "title": "Season eases", "type": "season" },
+      { "month": 11, "day": 1, "title": "All Saints", "type": "feast" },
+      { "month": 12, "day": 25, "title": "Christmas", "type": "feast" }
+    ],
+    "massScheduleNotes": "Pilgrim's Mass at noon daily; botafumeiro on feast days.",
+    "processionTimes": "Botafumeiro swing at major feasts",
+    "howToReach": {
+      "air": "Santiago de Compostela Airport (SCQ)",
+      "train": "Santiago Estación",
+      "road": "Camino routes on foot; city well connected"
+    },
+    "officialUrl": "https://catedraldesantiago.es/en/",
+    "livestreamUrl": null
+  },
+  {
+    "slug": "knock",
+    "name": "Knock Shrine",
+    "country": "Ireland",
+    "region": "Mayo",
+    "latitude": 53.793,
+    "longitude": -9.188,
+    "description": "Site of the 1879 apparition witnessed by fifteen people in County Mayo.",
+    "significance": "Ireland's national Marian shrine.",
+    "bestSeason": "May–August; Aug 15 Assumption",
+    "peakEvents": ["Aug 15", "National Novena (Aug)"],
+    "yearlySchedule": [
+      { "month": 3, "day": 17, "title": "St. Patrick's Day pilgrimages", "type": "feast" },
+      { "month": 5, "day": null, "title": "May processions", "type": "season" },
+      { "month": 8, "day": null, "title": "National Novena", "type": "pilgrimage", "notes": "Usually mid–late August — verify yearly" },
+      { "month": 8, "day": 15, "title": "Assumption of Mary", "type": "feast" },
+      { "month": 8, "day": 21, "title": "Anniversary of the Apparition (1879)", "type": "feast" },
+      { "month": 9, "day": null, "title": "Autumn pilgrimages", "type": "season" },
+      { "month": 12, "day": 8, "title": "Immaculate Conception", "type": "feast" }
+    ],
+    "massScheduleNotes": "Daily Mass and Anointing of the Sick ceremonies.",
+    "processionTimes": "Rosary processions during novena",
+    "howToReach": {
+      "air": "Ireland West Airport Knock (NOC) nearby",
+      "train": "Bus from Dublin/Galway",
+      "road": "N17 from Galway or Sligo"
+    },
+    "officialUrl": "https://www.knockshrine.ie/",
+    "livestreamUrl": "https://www.knockshrine.ie/watch-live/"
+  },
+  {
+    "slug": "czestochowa",
+    "name": "Jasna Góra — Our Lady of Częstochowa",
+    "country": "Poland",
+    "region": "Silesia",
+    "latitude": 50.812,
+    "longitude": 19.117,
+    "description": "Home of the Black Madonna icon, spiritual capital of Poland.",
+    "significance": "National shrine and major Marian pilgrimage center of Central Europe.",
+    "bestSeason": "May–September; Aug 15 and Aug 26 are peak",
+    "peakEvents": ["Aug 15 Assumption", "Aug 26 Our Lady of Częstochowa"],
+    "yearlySchedule": [
+      { "month": 5, "day": 3, "title": "Feast of Our Lady, Queen of Poland", "type": "feast" },
+      { "month": 8, "day": 15, "title": "Assumption — walking pilgrimages arrive", "type": "pilgrimage" },
+      { "month": 8, "day": 26, "title": "Our Lady of Częstochowa", "type": "feast" },
+      { "month": 9, "day": null, "title": "Autumn diocesan pilgrimages", "type": "season" },
+      { "month": 12, "day": 8, "title": "Immaculate Conception", "type": "feast" }
+    ],
+    "massScheduleNotes": "Frequent Masses; icon unveilings follow shrine schedule.",
+    "processionTimes": "Major processions around Aug 15 and Aug 26",
+    "howToReach": {
+      "air": "Katowice (KTW) or Kraków (KRK)",
+      "train": "Częstochowa station",
+      "road": "Well signposted to Jasna Góra"
+    },
+    "officialUrl": "https://jasnagora.pl/",
+    "livestreamUrl": "https://jasnagora.pl/"
+  },
+  {
+    "slug": "medjugorje",
+    "name": "Medjugorje",
+    "country": "Bosnia and Herzegovina",
+    "region": "Herzegovina",
+    "latitude": 43.19,
+    "longitude": 17.677,
+    "description": "Village associated with reported Marian apparitions beginning in 1981.",
+    "significance": "Popular international pilgrimage destination for prayer and conversion.",
+    "bestSeason": "Easter–October; June 25 anniversary",
+    "peakEvents": ["Jun 25 Anniversary", "Youth Festival (summer)"],
+    "yearlySchedule": [
+      { "month": 1, "day": null, "title": "Quiet winter prayer", "type": "season" },
+      { "month": 3, "day": null, "title": "Lenten pilgrimages", "type": "season" },
+      { "month": 6, "day": 25, "title": "Anniversary of the Apparitions", "type": "feast" },
+      { "month": 7, "day": null, "title": "Mladifest (Youth Festival)", "type": "pilgrimage", "notes": "Usually early August — confirm yearly" },
+      { "month": 8, "day": 15, "title": "Assumption", "type": "feast" },
+      { "month": 10, "day": null, "title": "Autumn groups", "type": "season" }
+    ],
+    "massScheduleNotes": "Evening prayer program is central; language Masses vary by season.",
+    "processionTimes": "Evening Rosary and Adoration common for pilgrim groups",
+    "howToReach": {
+      "air": "Mostar (OMO) or Split/Dubrovnik with transfer",
+      "train": "Bus connections from Mostar",
+      "road": "Local roads into the village"
+    },
+    "officialUrl": "https://www.medjugorje.hr/",
+    "livestreamUrl": "https://www.medjugorje.hr/"
+  }
+]

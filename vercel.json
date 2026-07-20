@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build:prod",
+  "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/cron/verify-content",
+      "schedule": "0 6 * * *"
+    }
+  ]
+}

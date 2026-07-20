@@ -1,0 +1,122 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Local: sqlite (file:./dev.db). Production (Vercel): set provider to "postgresql"
+// and DATABASE_URL to your Neon/Supabase connection string. See DEPLOY.md.
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model PilgrimageSite {
+  id                  String   @id @default(cuid())
+  slug                String   @unique
+  name                String
+  country             String
+  region              String?
+  latitude            Float
+  longitude           Float
+  description         String
+  significance        String?
+  bestSeason          String?
+  peakEvents          String   @default("[]")
+  yearlySchedule      String   @default("[]") // JSON: [{month, day?, title, type, notes?}]
+  massScheduleNotes   String?
+  processionTimes     String?
+  howToReach          String   @default("{}")
+  officialUrl         String?
+  livestreamUrl       String?
+  images              String   @default("[]")
+  lastVerifiedAt      DateTime @default(now())
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+}
+
+model OnlineStream {
+  id              String    @id @default(cuid())
+  name            String
+  url             String
+  language        String    @default("English")
+  timezone        String    @default("America/New_York")
+  scheduleSummary String?
+  type            String    @default("live_mass")
+  region          String?
+  verifiedAt      DateTime  @default(now())
+  lastCheckOk     Boolean   @default(true)
+  lastCheckedAt   DateTime?
+  createdAt       DateTime  @default(now())
+}
+
+model LocalPlace {
+  id            String    @id @default(cuid())
+  slug          String    @unique
+  status        String    @default("pending")
+  name          String
+  category      String
+  description   String
+  addressStreet String?
+  addressCity   String?
+  addressRegion String?
+  addressPostal String?
+  country       String    @default("United States")
+  latitude      Float?
+  longitude     Float?
+  phone         String?
+  email         String?
+  website       String?
+  socialLinks   String    @default("{}")
+  hours         String    @default("{}")
+  photoUrls     String    @default("[]")
+  amenities     String    @default("[]")
+  ownerName     String?
+  ownerEmail    String?
+  featured      Boolean   @default(false)
+  viewCount     Int       @default(0)
+  submittedAt   DateTime  @default(now())
+  approvedAt    DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+model TeachingSection {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title       String
+  source      String
+  description String?
+  sortOrder   Int      @default(0)
+  chapters    String   @default("[]")
+  createdAt   DateTime @default(now())
+}
+
+model User {
+  id           String           @id @default(cuid())
+  email        String           @unique
+  name         String
+  passwordHash String
+  role         String           @default("user") // user | admin
+  locale       String           @default("en") // en | es
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+  favorites    FavoriteParish[]
+}
+
+model FavoriteParish {
+  id        String   @id @default(cuid())
+  userId    String
+  churchId  String
+  name      String
+  address   String?
+  city      String?
+  region    String?
+  latitude  Float?
+  longitude Float?
+  phone     String?
+  website   String?
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, churchId])
+  @@index([userId])
+}

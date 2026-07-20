@@ -1,0 +1,83 @@
+[
+  {
+    "name": "EWTN Daily Mass",
+    "url": "https://www.ewtn.com/tv/watch-live/",
+    "language": "English",
+    "timezone": "America/New_York",
+    "scheduleSummary": "Daily Mass 8:00 AM ET · Spanish Mass available · 24/7 adoration",
+    "type": "live_mass",
+    "region": "Global"
+  },
+  {
+    "name": "Vatican Media Live",
+    "url": "https://www.vaticannews.va/en/epg.html",
+    "language": "Multiple",
+    "timezone": "Europe/Rome",
+    "scheduleSummary": "Papal liturgies, Angelus, and major feasts from Rome (EN/IT/ES/others)",
+    "type": "live_mass",
+    "region": "Vatican"
+  },
+  {
+    "name": "CatholicTV Daily Mass",
+    "url": "https://www.catholictv.org/masses/catholictv-mass",
+    "language": "English",
+    "timezone": "America/New_York",
+    "scheduleSummary": "Daily televised Mass from the Archdiocese of Boston",
+    "type": "live_mass",
+    "region": "United States"
+  },
+  {
+    "name": "Sanctuary of Lourdes Live",
+    "url": "https://www.lourdes-france.org/en/pray/live/",
+    "language": "Multiple",
+    "timezone": "Europe/Paris",
+    "scheduleSummary": "Mass, Rosary, and torchlight from the Grotto",
+    "type": "live_mass",
+    "region": "France"
+  },
+  {
+    "name": "Shrine of Fatima Live",
+    "url": "https://www.fatima.pt/en/pages/online-transmissions",
+    "language": "Portuguese / English",
+    "timezone": "Europe/Lisbon",
+    "scheduleSummary": "International Masses and Rosary from the Chapel of Apparitions",
+    "type": "live_mass",
+    "region": "Portugal"
+  },
+  {
+    "name": "Basilica of Guadalupe (ES)",
+    "url": "https://www.youtube.com/@BasilicadeGuadalupeMX",
+    "language": "Spanish",
+    "timezone": "America/Mexico_City",
+    "scheduleSummary": "Live celebrations and feasts from Mexico City — ideal for Spanish speakers",
+    "type": "live_mass",
+    "region": "Mexico"
+  },
+  {
+    "name": "Knock Shrine Live",
+    "url": "https://www.knockshrine.ie/watch-live/",
+    "language": "English",
+    "timezone": "Europe/Dublin",
+    "scheduleSummary": "Daily Mass and ceremonies from Ireland’s national Marian shrine",
+    "type": "live_mass",
+    "region": "Ireland"
+  },
+  {
+    "name": "USCCB / Daily Readings companion",
+    "url": "https://bible.usccb.org/daily-bible-reading",
+    "language": "English / Español",
+    "timezone": "America/New_York",
+    "scheduleSummary": "Official daily readings text (pair with any live Mass stream)",
+    "type": "readings",
+    "region": "United States"
+  },
+  {
+    "name": "Relevant Radio — Daily Mass",
+    "url": "https://relevantradio.com/faith/daily-mass/",
+    "language": "English",
+    "timezone": "America/Chicago",
+    "scheduleSummary": "Daily Mass video and audio when parish attendance is difficult",
+    "type": "live_mass",
+    "region": "United States"
+  }
+]
