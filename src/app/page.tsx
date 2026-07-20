@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { HomePrayersStrip } from "@/components/home-prayers-strip";
+import { PapalBlessing } from "@/components/papal-blessing";
 import { mainNav } from "@/lib/navigation";
 import { fetchDailyReadings } from "@/lib/usccb-readings";
 import { getTeachingOfTheDay } from "@/lib/teaching-of-day";
@@ -46,6 +47,8 @@ export default async function HomePage() {
         className="pointer-events-none absolute inset-x-0 top-0 h-[28rem] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-accent/10 to-transparent"
       />
       <div className="relative mx-auto max-w-6xl px-4 py-10 md:py-16">
+        <PapalBlessing locale={locale} />
+
         <section className="mb-14 md:mb-16">
           <div className="mb-5 flex items-center gap-2">
             <span className="flex h-9 w-9 items-center justify-center rounded-full border border-accent/50 bg-accent/20 text-primary">

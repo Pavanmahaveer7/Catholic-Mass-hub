@@ -1,14 +1,15 @@
 import Link from "next/link";
 import { ExternalLink, Radio, RefreshCw } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { PageHero } from "@/components/layout/page-hero";
 import { prisma } from "@/lib/db";
+import { cn } from "@/lib/utils";
 import streamsFallback from "@/data/online-streams.json";
 
 export const metadata = { title: "Watch Online" };
-export const revalidate = 3600; // refresh from DB hourly
+export const revalidate = 3600;
 
 export default async function WatchPage() {
   let streams = await prisma.onlineStream
@@ -40,13 +41,13 @@ export default async function WatchPage() {
       <PageHero
         eyebrow="Live & on demand"
         title="Watch Mass Online"
-        description="Trusted Catholic live streams when you cannot attend in person. Directory is refreshed from our curated database — re-seed anytime to update listings."
+        description="Trusted Catholic live streams when you cannot attend in person. Links open on the broadcaster’s site in a new tab."
       />
 
       {latest && (
         <p className="mb-6 flex items-center gap-2 text-sm text-muted-foreground">
           <RefreshCw className="h-3.5 w-3.5 text-primary" aria-hidden />
-          Directory last verified{" "}
+          Directory last refreshed{" "}
           {latest.toLocaleDateString(undefined, {
             year: "numeric",
             month: "long",
@@ -87,24 +88,27 @@ export default async function WatchPage() {
                   {stream.region}
                 </Badge>
               )}
-              <Button
-                className="mt-2 w-full sm:w-auto"
-                render={<a href={stream.url} target="_blank" rel="noopener noreferrer" />}
+              {/* Native <a> — more reliable than Button render for external sites */}
+              <a
+                href={stream.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cn(buttonVariants(), "mt-2 w-full sm:w-auto")}
               >
-                Watch
+                Open stream
                 <ExternalLink className="ml-2 h-4 w-4" />
-              </Button>
+              </a>
+              <p className="w-full break-all text-xs text-muted-foreground">{stream.url}</p>
             </CardContent>
           </Card>
         ))}
       </div>
 
       <div className="church-panel mt-8 p-4 text-sm text-muted-foreground">
-        <p className="font-medium text-foreground">Keeping this list current</p>
+        <p className="font-medium text-foreground">If a link will not open</p>
         <p className="mt-1">
-          Edit <code className="text-xs">content/seeds/online-streams.json</code>, then run{" "}
-          <code className="text-xs">npm run db:seed</code>. The page reloads from the database
-          (hourly cache).
+          Some shrines block automated checks or certain regions. Copy the URL shown under each
+          button, or try EWTN / YouTube alternatives. Confirm schedules on the official site.
         </p>
       </div>
 

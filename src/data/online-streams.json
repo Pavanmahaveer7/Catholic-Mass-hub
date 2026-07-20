@@ -28,10 +28,10 @@
   },
   {
     "name": "Sanctuary of Lourdes Live",
-    "url": "https://www.lourdes-france.org/en/pray/live/",
+    "url": "https://www.lourdes-france.com/en/lourdesplus/",
     "language": "Multiple",
     "timezone": "Europe/Paris",
-    "scheduleSummary": "Mass, Rosary, and torchlight from the Grotto",
+    "scheduleSummary": "Official Lourdes+ live from the Grotto — Mass, Rosary, torchlight",
     "type": "live_mass",
     "region": "France"
   },
@@ -46,24 +46,24 @@
   },
   {
     "name": "Basilica of Guadalupe (ES)",
-    "url": "https://www.youtube.com/@BasilicadeGuadalupeMX",
+    "url": "https://www.youtube.com/@BasilicadeGuadalupeOficial/live",
     "language": "Spanish",
     "timezone": "America/Mexico_City",
-    "scheduleSummary": "Live celebrations and feasts from Mexico City — ideal for Spanish speakers",
+    "scheduleSummary": "Live celebrations from Mexico City — ideal for Spanish speakers",
     "type": "live_mass",
     "region": "Mexico"
   },
   {
-    "name": "Knock Shrine Live",
-    "url": "https://www.knockshrine.ie/watch-live/",
+    "name": "EWTN YouTube Live",
+    "url": "https://www.youtube.com/@EWTNonline/streams",
     "language": "English",
-    "timezone": "Europe/Dublin",
-    "scheduleSummary": "Daily Mass and ceremonies from Ireland’s national Marian shrine",
+    "timezone": "America/New_York",
+    "scheduleSummary": "EWTN live and recent Masses on YouTube when the main site is hard to open",
     "type": "live_mass",
-    "region": "Ireland"
+    "region": "Global"
   },
   {
-    "name": "USCCB / Daily Readings companion",
+    "name": "USCCB Daily Readings",
     "url": "https://bible.usccb.org/daily-bible-reading",
     "language": "English / Español",
     "timezone": "America/New_York",

@@ -2,7 +2,7 @@ import {
   BookOpen,
   Church,
   Compass,
-  HandHelping,
+  HandHeart,
   MapPin,
   MonitorPlay,
   Store,
@@ -38,7 +38,7 @@ export const mainNav: NavItem[] = [
   {
     title: "Prayers",
     href: "/prayers",
-    icon: HandHelping,
+    icon: HandHeart,
     description: "Our Father, Hail Mary, Act of Contrition, and more",
   },
   {

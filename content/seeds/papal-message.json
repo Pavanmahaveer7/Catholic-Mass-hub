@@ -1,0 +1,15 @@
+{
+  "popeName": "Pope Leo XIV",
+  "popeNameEs": "Papa León XIV",
+  "title": "Successor of Peter",
+  "titleEs": "Sucesor de Pedro",
+  "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Pope_Leo_XIV.png/960px-Pope_Leo_XIV.png",
+  "imageFallback": "/papal/pope-placeholder.svg",
+  "imageAlt": "Portrait of Pope Leo XIV",
+  "imageCredit": "Portrait via Wikimedia Commons (press imagery)",
+  "message": "Peace be with all of you. As the Successor of Peter, I invite every heart to turn toward Jesus Christ, who is our hope and our peace. May Mary, Mother of the Church, accompany you — at Mass, in prayer, and on every path of faith.",
+  "messageEs": "La paz esté con todos ustedes. Como Sucesor de Pedro, invito a cada corazón a volverse hacia Jesucristo, que es nuestra esperanza y nuestra paz. Que María, Madre de la Iglesia, los acompañe — en la Misa, en la oración y en cada camino de fe.",
+  "sourceNote": "Pastoral greeting displayed for the faithful. For official teachings and addresses, visit vatican.va.",
+  "sourceNoteEs": "Saludo pastoral para los fieles. Para enseñanzas oficiales, visite vatican.va.",
+  "vaticanUrl": "https://www.vatican.va/"
+}
