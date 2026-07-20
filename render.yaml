@@ -5,7 +5,7 @@ services:
     runtime: node
     plan: free
     region: oregon
-    buildCommand: npm ci && npm run build:prod && npm run db:seed
+    buildCommand: npm install && npm run build:prod && npm run db:seed
     startCommand: npm run start
     healthCheckPath: /
     envVars:
